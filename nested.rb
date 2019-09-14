@@ -40,6 +40,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
+  string = []
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -55,7 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-  string = programmer_hash[:dennis_ritchie][:languages]
+  string << programmer_hash[:dennis_ritchie][:languages]
   string.to_s
 end
 
